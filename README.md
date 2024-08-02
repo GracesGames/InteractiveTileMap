@@ -5,12 +5,12 @@
   	<a href="https://gracesgames.com/InteractiveTileMap/" rel="noreferrer" target="_blank">Website</a>
 </p>
 
-Available in the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/interactive-tile-map){:target="_blank"}{:rel="noreferrer"}
+Available in the [Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/interactive-tile-map)
 
 Interactive Tile Map allows you to add interactive elements to your tile map without manually placing them. 
 This will allow you to use the tile map editor as a level editor, thereby speeding up your level design process.
 
-You define which tile is replaced by which actor or flipbook animation using the provided [Data Asset](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-assets-in-unreal-engine){:target="_blank"}{:rel="noreferrer"} or the [Data Tables](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-driven-gameplay-elements){:target="_blank"}{:rel="noreferrer"}.
+You define which tile is replaced by which actor or flipbook animation using the provided [Data Asset](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-assets-in-unreal-engine) or the [Data Tables](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-driven-gameplay-elements).
 The tiles can be defined using TileInfo (TileSet + Index) or the Tile User Data Name.
 
 This product can be added to any actor and only requires a PaperTileMapComponent to perform the replace logic. 
