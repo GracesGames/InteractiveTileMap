@@ -30,3 +30,5 @@ __Features include:__
 
 For a complete overview, see the [Features](https://gracesgames.com/InteractiveTileMap/features/) page 
 <br/>
+
+![FeaturedImage]({{ "/assets/images/FeaturedImage.png" | absolute_url }})

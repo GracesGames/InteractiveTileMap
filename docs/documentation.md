@@ -26,9 +26,9 @@ Choose whether you want to replace the tiles based on Tile Identifier (Tile Set 
 
 ### 2.1a Tile Identifier
 
-Determine the TileIndex of the tiles you want to replace. The easiest way to find the tile index is by selecting the tile in the [Tile Set Editor](https://dev.epicgames.com/documentation/en-us/unreal-engine/paper-2d-tile-sets-and-tile-maps-in-unreal-engine){:target="_blank"}{:rel="noreferrer"}.
+Determine the TileIndex of the tiles you want to replace. The easiest way to find the tile index is by selecting the tile in the [Tile Set Editor](https://dev.epicgames.com/documentation/en-us/unreal-engine/paper-2d-tile-sets-and-tile-maps-in-unreal-engine){:target="_blank"}{:rel="noreferrer"}, as shown in the image below.
 
-__Insert Image here__
+![FeaturedImage]({{ "/assets/images/TileSetEditorTileIndexAnnotated.png" | absolute_url }})
 
 Open the ReplacementSettings Data Asset and add a new element to the Actor Mappings array if you want to replace the tile with an actor or the Flipbook Mappings array if you want to replace the tile with a flipbook.
 
@@ -36,9 +36,9 @@ Set the Tile Identifier data of the new element to the Tile Identifier of the ti
 
 ### 2.1b Tile User Data Name
 
-Set up the User Data Name for each tile you want to replace by selecting the tile in the [Tile Set Editor](https://dev.epicgames.com/documentation/en-us/unreal-engine/paper-2d-tile-sets-and-tile-maps-in-unreal-engine){:target="_blank"}{:rel="noreferrer"} and filling in the User Data Name field. The User Data Name field can be found in the Single Tile Editor, by default in the bottom right corner.
+Set up the User Data Name for each tile you want to replace by selecting the tile in the [Tile Set Editor](https://dev.epicgames.com/documentation/en-us/unreal-engine/paper-2d-tile-sets-and-tile-maps-in-unreal-engine){:target="_blank"}{:rel="noreferrer"} and filling in the User Data Name field. The User Data Name field can be found in the Single Tile Editor, by default in the bottom right corner, as shown in the image below.
 
-__Insert Image here__
+![FeaturedImage]({{ "/assets/images/TileSetEditorTileUserDataNameAnnotated.png" | absolute_url }})
 
 Select an name that is descriptive and easy to remember.
 
