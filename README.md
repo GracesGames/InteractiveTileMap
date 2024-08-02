@@ -31,4 +31,4 @@ The project will be maintained, so feel free to get in touch to suggest changes,
 
 For a list of features, documentation and more please see the [website](https://gracesgames.com/InteractiveTileMap/)
 
-![FeaturedImage](https://github.com/GracesGames/InteractiveTileMap/blob/master/Images/FeaturedImage.png)
+![FeaturedImage](https://github.com/GracesGames/InteractiveTileMap/blob/main/Images/FeaturedImage.png)
