@@ -11,13 +11,14 @@ Interactive Tile Map allows you to add interactive elements to your tile map wit
 This will allow you to use the tile map editor as a level editor, thereby speeding up your level design process.
 
 You define which tile is replaced by which actor or flipbook animation using the provided [Data Asset](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-assets-in-unreal-engine) or the [Data Tables](https://dev.epicgames.com/documentation/en-us/unreal-engine/data-driven-gameplay-elements).
-The tiles can be defined using TileInfo (TileSet + Index) or the Tile User Data Name.
+The tiles can be defined using TileIdentifier (TileSet + Index) or the Tile User Data Name.
 
-This product can be added to any actor and only requires a PaperTileMapComponent to perform the replace logic. 
-It will replace all instances of the defined tiles with the corrosponding actors and flipbooks.
+This product is implemented as an ActorComponent and can be added to any actor (e.g. the level Paper Tile Map Actor). 
+The replace function can be called at any time and only requires a PaperTileMapComponent to perform the logic on. 
+It will replace all instances of the defined tiles with the corresponding actors and flipbooks.
 
-Everything is done using Blueprints and allows customization.
- 
+Created using Blueprints, fully documented and easy to customize.
+
 The project will be maintained, so feel free to get in touch to suggest changes, features or anything else.
 
 ## Features include:
