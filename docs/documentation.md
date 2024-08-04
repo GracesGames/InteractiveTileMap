@@ -40,7 +40,7 @@ Set up the User Data Name for each tile you want to replace by selecting the til
 
 ![FeaturedImage]({{ "/assets/images/TileSetEditorTileUserDataNameAnnotated.png" | absolute_url }})
 
-Select an name that is descriptive and easy to remember.
+Select a name that is descriptive and easy to remember.
 
 Open the Actor Mappings Data Table and add a new row if you want to replace the tile with an actor or open the Flipbook Mappings Data Table if you want to replace the tile with a flipbook.
 
@@ -50,7 +50,7 @@ Set the name of the new row to the User Data Name of the tile you want to replac
 
 #### Actor Replacement Data
 
-- _Replacment Actor_: select the actor you want to replace the tile with from the actor drop down.
+- _Replacement Actor_: select the actor you want to replace the tile with from the actor drop down.
 
 - _Offset_: set an offset for the actor location, or leave at (0,0,0) if the tile location should be used.
 
@@ -76,7 +76,7 @@ Choose PaperFlipbookComponent for flipbooks with a static position and scale (e.
 Choose PaperFlipbookActor for flipbooks that might move or change in size. This is more expensive and requires more manual bookkeeping.  
 Settings marked with * indicate that they only affect Flipbooks spawned as a PaperFlipbookActor, not a PaperFlipbookComponent.  
 
-- _Replacment Flipbook_: select the flipbook you want to replace the tile with from the flipbook drop down.
+- _Replacement Flipbook_: select the flipbook you want to replace the tile with from the flipbook drop down.
 
 - _Offset_: set an offset for the flipbook location, or leave at (0,0,0) if the tile location should be used.
 
@@ -98,7 +98,7 @@ Defaults to true as the spawned flipbook usually replaces the tile.
 # 3 Clean-up tiles
 
 Some objects on the tile map can consist of multiple tiles. From all these tiles only one needs to be replaced with the flipbook or actor.  
-The other tiles should just be cleared, and this can be done with the Clear Tile Identifers or Clear Tile User Data list.  
+The other tiles should just be cleared, and this can be done with the Clear Tile Identifiers or Clear Tile User Data list.  
 
 In the example tile map, this is done for the Barrier, which consists of two tiles. The top tile is replaced with the actor while the bottom tile is cleared.
 
