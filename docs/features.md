@@ -8,13 +8,13 @@ permalink: /features/
 
 ***
 
-The __Interactive Tile Map__ provides:
+The __Interactive Tile Map__ provides functionality to:
 
-* Replacing tiles with actors
-* Replacing tiles with paper flipbook actors or paper flipbook components
-* Attach the spawned actor or component to the tile map actor
-* Have the actor receive a custom event on spawn including the tile User Data
-* Finds and returns tile transforms for your own use case (e.g. spawn points)
-* Clearing tiles that should only exist in the tile map
+* Replace tiles with actors
+* Replace tiles with paper flipbook actors or paper flipbook components
+* Attach the spawned actor or component to the paper tile map actor
+* Have the actor receive a custom event on spawn including the tile User Data Name
+* Find and return tile transforms for your own use case (e.g. spawn points)
+* Clear tiles that should only exist in the tile map
 * Identify tiles by Tile Identifier (i.e. TileSet + Index) or tile User Data Name
 * Include and exclude specific layers to improve performance
