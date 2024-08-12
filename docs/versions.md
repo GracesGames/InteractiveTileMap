@@ -10,7 +10,7 @@ permalink: /versions/
 
 ### Version 1.0.1
 
-##### Release date: under review
+##### Release date: 12-08-2024
 
 Improvements:
 
